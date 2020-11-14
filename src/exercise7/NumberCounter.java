@@ -26,7 +26,7 @@ public class NumberCounter {
 
     public static int countNumberOccurrences(int number, int[] numbers) {
         int count = 0;
-        for(int j = 0; j< numbers.length; j++);{
+        for(int j = 0; j< numbers.length; j++){
           if(number == numbers[j]){
             count++;
           }
